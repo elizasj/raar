@@ -1,0 +1,100 @@
+@media screen and (min-width: 60em) {
+    .grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  
+    .wrap {
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      word-break: break-all;
+      word-break: break-word;
+      hyphens: auto;
+    }
+  
+    .gmail {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+      transform: translate(3em);
+    }
+  
+    .twitter {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+      transform: translateX(6em) translateY(2em);
+    }
+  
+    .facebook {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      grid-column-start: 1;
+      grid-column-end: 2;
+      display: flex;
+    }
+  
+    .vinyl {
+      grid-row-start: 5;
+      grid-row-end: 6;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      display: flex;
+    }
+  
+    .digital {
+      grid-row-start: 6;
+      grid-row-end: 7;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      display: flex;
+      transform: translateX(4em) translateY(-1em);
+    }
+  
+    .code {
+      grid-row-start: 8;
+      grid-row-end: 9;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      display: flex;
+      transform: translate(-6em);
+    }
+  
+    .releases {
+      grid-row-start: 2;
+      grid-row-end: 3;
+      grid-column-start: 3;
+      grid-column-end: 4;
+      display: flex;
+      transform: translate(3em);
+    }
+  
+    .paypal {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      display: flex;
+      transform: translate(-4em);
+    }
+  
+    .about {
+      grid-row-start: 5;
+      grid-row-end: 6;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      display: flex;
+      transform: translateX(3em) translateY(1em);
+    }
+  
+    .logo {
+      grid-row-start: 6;
+      grid-row-end: 7;
+      grid-column-start: 4;
+      grid-column-end: 5;
+      display: flex;
+    }
+  }

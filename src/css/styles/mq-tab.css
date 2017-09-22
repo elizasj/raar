@@ -1,0 +1,91 @@
+@media screen and (min-width: 40em) and (max-width: 60em) {  
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .gmail {
+      grid-row-start: 1;
+      grid-row-end: 2;
+      display: flex;
+      transform: translate(2em);
+    }
+  
+    .twitter {
+      grid-row-start: 3;
+      grid-row-end: 4;
+      display: flex;
+      transform: translateX(9em) translateY(-2em);
+    }
+  
+    .facebook {
+      grid-row-start: 4;
+      grid-row-end: 5;
+      display: flex;
+      transform: translateX(3em) translateY(-2em);
+    }
+  
+    .vinyl {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      display: flex;
+      transform: translateX(-4em) translateY(1em);
+    }
+  
+    .digital {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 6;
+      grid-row-end: 7;
+      display: flex;
+      transform: translate(1em);
+    }
+  
+    .code {
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 8;
+      grid-row-end: 9;
+      display: flex;
+      transform: translate(-7em);
+    }
+  
+    .releases {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      display: flex;
+      transform: translateX(-5em) translateY(-1em);
+    }
+  
+    .paypal {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 3;
+      grid-row-end: 4;
+      display: flex;
+      transform: translateY(2em);
+    }
+  
+    .about {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 5;
+      grid-row-end: 6;
+      display: flex;
+      transform: translateX(6em) translateY(1em);
+    }
+  
+    .logo {
+      grid-column-start: 3;
+      grid-column-end: 4;
+      grid-row-start: 6;
+      grid-row-end: 7;
+      display: flex;
+      transform: translate(4em);
+    }
+  }
+  
+  

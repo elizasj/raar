@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  body {
+    width: 100%;
+    margin: 3vh auto;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+  }
+  
+  img,
+  p {
+    vertical-align: middle;
+  }
+  
+  
+  p {
+    display: flex;
+    align-items: center;
+    color: black;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .grid {
+    width: 90%;
+    display: grid;
+    grid-template-rows: repeat(15, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .wrap {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-all;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  
+  .gmail {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    transform: translate(0em);
+  }
+  
+  .twitter {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: flex;
+    transform: translateX(0em) translateY(0em);
+  }
+  
+  .facebook {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    display: flex;
+  }
+  
+  .vinyl {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    display: flex;
+  }
+  
+  .digital {
+    grid-row-start: 8;
+    grid-row-end: 9;
+    display: flex;
+    transform: translateX(0em) translateY(0em);
+  }
+  
+  .code {
+    grid-row-start: 16;
+    grid-row-end: 17;
+    display: flex;
+    transform: translate(0em);
+  }
+  
+  .releases {
+    grid-row-start: 10;
+    grid-row-end: 11;
+    display: flex;
+    transform: translate(0em);
+  }
+  
+  .paypal {
+    grid-row-start: 11;
+    grid-row-end: 12;
+    display: flex;
+    transform: translate(0em);
+  }
+  
+  .about {
+    grid-row-start: 13;
+    grid-row-end: 14;
+    display: flex;
+    transform: translateX(0em) translateY(0em);
+  }
+  
+  .logo {
+    grid-row-start: 14;
+    grid-row-end: 15;
+    display: flex;
+  }
+  
+  
