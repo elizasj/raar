@@ -26,7 +26,7 @@
       grid-column-start: 1;
       grid-column-end: 2;
       display: flex;
-      transform: translateX(6em) translateY(2em);
+      transform: translateX(3.8em) translateY(2em);
     }
   
     .facebook {

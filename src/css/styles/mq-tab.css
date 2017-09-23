@@ -14,7 +14,7 @@
       grid-row-start: 3;
       grid-row-end: 4;
       display: flex;
-      transform: translateX(9em) translateY(-2em);
+   
     }
   
     .facebook {
