@@ -1,6 +1,6 @@
 @media screen and (min-width: 60em) {
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-rows: repeat(11, 1fr);
   }
 }
