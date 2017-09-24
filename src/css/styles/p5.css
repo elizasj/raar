@@ -1,25 +1,17 @@
-body {
-    margin:0;
-    padding:0;
-    overflow: hidden;
-    justify-content: center;
-    display: flex;	
-}
-
 canvas {
-    margin:auto;
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #p5 {
-    position: fixed;
+  position: relative;
+  z-index: 2;
 }
 
 .resizeImg {
-    width: 100%;
-    z-index: -1;
-    object-fit: cover;
-}
+  width: 100%;
+  z-index: 1;
+  object-fit: cover;
+} 

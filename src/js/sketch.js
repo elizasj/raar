@@ -1,19 +1,15 @@
 export default function sketch(s) {
-    console.log("inside module")
-    let backgroundImg, cnv, img
+  console.log('inside module');
 
-    s.preload = () => {
-        const imgNum = s.floor(s.random(1, 7))
-        img = s.createImg( "images/gifs/" + imgNum + ".gif") 
-    }
+  s.setup = () => {
+    console.log('working');
+    cnv = s.createCanvas(s.windowWidth, s.windowHeight);
+    cnv.parent('p5');
+  };
 
-    s.setup = () => {
-        cnv = s.createCanvas(s.windowWidth, s.windowHeight)
-        cnv.parent("p5")
-        img.class("resizeImg")
-    }
+  s.draw = () => {};
 
-    s.draw = () => {
-        s.background(img)
-    }
- }
+  function windowResized() {
+    s.resizeCanvas(s.windowWidth, s.windowHeight);
+  }
+}
