@@ -88,3 +88,35 @@ p {
   column-row-end: 3;
   transform: translateX(-0.6em) translateY(0.4em);
 }
+
+.tw {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-row-start: 1;
+  column-row-end: 2;
+  transform: translateX(1.6em) translateY(1.2em);
+}
+
+.tw-text {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-row-start: 2;
+  column-row-end: 3;
+  transform: translateX(0.9em) translateY(0.5em);
+}
+
+.fb {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  column-row-start: 1;
+  column-row-end: 2;
+  transform: translateX(-1.5em) translateY(-0.4em);
+}
+
+.fb-text {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  column-row-start: 2;
+  column-row-end: 3;
+  transform: translateX(-2.1em) translateY(-0.6em);
+}
