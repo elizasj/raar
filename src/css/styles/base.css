@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0px;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 img {
@@ -59,6 +59,7 @@ p {
   background-size: cover;
   padding: 25px;
   position: absolute;
+  overflow-x: hidden;
 }
 
 /* -- layout [**MOBILE**] (see mq-tab.css && mq-desk.css for tablet/desktop layouts -- */
@@ -77,70 +78,70 @@ p {
 .gmail {
   grid-row-start: 1;
   grid-row-end: 2;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
 }
 
 .gmail-text {
   grid-row-start: 1;
   grid-row-end: 2;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(-0.6em) translateY(-0.2em);
 }
 
 .tw {
   grid-row-start: 2;
   grid-row-end: 3;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(1.6em) translateY(1.2em);
 }
 
 .tw-text {
   grid-row-start: 2;
   grid-row-end: 3;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(0.9em) translateY(0.5em);
 }
 
 .fb {
   grid-row-start: 3;
   grid-row-end: 4;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(-1.5em) translateY(-0.4em);
 }
 
 .fb-text {
   grid-row-start: 3;
   grid-row-end: 4;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(-2.1em) translateY(-0.6em);
 }
 
 .vinyl {
   grid-row-start: 4;
   grid-row-end: 5;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(2.8em) translateY(0.6em);
 }
 
 .vinyl-text {
   grid-row-start: 4;
   grid-row-end: 5;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(2.3em) translateY(0.6em);
 }
 
 .digital {
   grid-row-start: 5;
   grid-row-end: 6;
-  column-row-start: 1;
+  grid-column-start: 1;
   column-row-end: 2;
   transform: translateX(3.6em) translateY(-0.7em);
 }
@@ -148,31 +149,31 @@ p {
 .digital-text {
   grid-row-start: 5;
   grid-row-end: 6;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(3.1em) translateY(-0.3em);
 }
 
 .code {
   grid-row-start: 10;
   grid-row-end: 11;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(1em) translateY(2.3em);
 }
 
 .code-text {
   grid-row-start: 10;
   grid-row-end: 11;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(1.1em) translateY(2.3em);
 }
 
 .releases {
   grid-row-start: 6;
   grid-row-end: 7;
-  column-row-start: 1;
+  grid-column-start: 1;
   column-row-end: 2;
   transform: translateX(0.6em) translateY(1.3em);
 }
@@ -180,55 +181,55 @@ p {
 .rel-text {
   grid-row-start: 6;
   grid-row-end: 7;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(0.1em) translateY(0.7em);
 }
 
 .paypal {
   grid-row-start: 7;
   grid-row-end: 8;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(-0.1em) translateY(2.3em);
 }
 
 .pay-text {
   grid-row-start: 7;
   grid-row-end: 8;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(-0.5em) translateY(2.5em);
 }
 
 .logo {
   grid-row-start: 9;
   grid-row-end: 10;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(3.6em) translateY(1.3em);
 }
 
 .logo-text {
   grid-row-start: 9;
   grid-row-end: 10;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(4.3em) translateY(1.5em);
 }
 
 .abt {
   grid-row-start: 8;
   grid-row-end: 9;
-  column-row-start: 1;
-  column-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
   transform: translateX(5.9em) translateY(3em);
 }
 
 .abt-text {
   grid-row-start: 8;
   grid-row-end: 9;
-  column-row-start: 2;
-  column-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
   transform: translateX(5.3em) translateY(2.7em);
 }
