@@ -4,9 +4,9 @@ languageLang = "en"
 title = "RAAR"
 
 [[menu.main]]
-    name = "obi"
-    identifier = "obi"
-    url = "/obi/"
+    name = "obiblanche"
+    identifier = "obiblanche"
+    url = "/obiblanche/"
 
 
 # RSS, categories and tags disabled for an easy start

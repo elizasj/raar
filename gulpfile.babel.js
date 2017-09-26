@@ -19,14 +19,14 @@ const hugoArgsDefault = ['-d', '../dist', '-s', 'site', '-v'];
 const hugoArgsPreview = ['--buildDrafts', '--buildFuture'];
 
 // Development tasks
-gulp.task('clear', done => {
-  return cache.clearAll(done);
-});
-
 gulp.task('hugo', cb => buildSite(cb));
 gulp.task('hugo-preview', cb => buildSite(cb, hugoArgsPreview));
 
 // Build/production tasks
+gulp.task('clear', done => {
+  return cache.clearAll(done);
+});
+
 gulp.task('build', ['css', 'js'], cb => buildSite(cb, [], 'production'));
 gulp.task('build-preview', ['css', 'js'], cb =>
   buildSite(cb, hugoArgsPreview, 'production')
