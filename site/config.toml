@@ -7,7 +7,10 @@ title = "RAAR"
     name = "obiblanche"
     identifier = "obiblanche"
     url = "/obiblanche/"
-
+[[menu.main]]
+    name = "obizine"
+    identifier = "obizine"
+    url = "/obizine/"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
