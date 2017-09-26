@@ -77,159 +77,199 @@ p {
 
 .gmail {
   grid-row-start: 1;
+  /* autoprefixer: off */
   grid-row-end: 2;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
 }
 
 .gmail-text {
   grid-row-start: 1;
+  /* autoprefixer: off */
   grid-row-end: 2;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(-0.6em) translateY(-0.2em);
 }
 
 .tw {
   grid-row-start: 2;
+  /* autoprefixer: off */
   grid-row-end: 3;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(1.6em) translateY(1.2em);
 }
 
 .tw-text {
   grid-row-start: 2;
+  /* autoprefixer: off */
   grid-row-end: 3;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(0.9em) translateY(0.5em);
 }
 
 .fb {
   grid-row-start: 3;
+  /* autoprefixer: off */
   grid-row-end: 4;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(-1.5em) translateY(-0.4em);
 }
 
 .fb-text {
   grid-row-start: 3;
+  /* autoprefixer: off */
   grid-row-end: 4;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(-2.1em) translateY(-0.6em);
 }
 
 .vinyl {
   grid-row-start: 4;
+  /* autoprefixer: off */
   grid-row-end: 5;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(2.8em) translateY(0.6em);
 }
 
 .vinyl-text {
   grid-row-start: 4;
+  /* autoprefixer: off */
   grid-row-end: 5;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(2.3em) translateY(0.6em);
 }
 
 .digital {
   grid-row-start: 5;
+  /* autoprefixer: off */
   grid-row-end: 6;
   grid-column-start: 1;
+  /* autoprefixer: off */
   column-row-end: 2;
   transform: translateX(3.6em) translateY(-0.7em);
 }
 
 .digital-text {
   grid-row-start: 5;
+  /* autoprefixer: off */
   grid-row-end: 6;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(3.1em) translateY(-0.3em);
 }
 
 .code {
   grid-row-start: 10;
+  /* autoprefixer: off */
   grid-row-end: 11;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(1em) translateY(2.3em);
 }
 
 .code-text {
   grid-row-start: 10;
+  /* autoprefixer: off */
   grid-row-end: 11;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(1.1em) translateY(2.3em);
 }
 
 .releases {
   grid-row-start: 6;
+  /* autoprefixer: off */
   grid-row-end: 7;
   grid-column-start: 1;
+  /* autoprefixer: off */
   column-row-end: 2;
   transform: translateX(0.6em) translateY(1.3em);
 }
 
 .rel-text {
   grid-row-start: 6;
+  /* autoprefixer: off */
   grid-row-end: 7;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(0.1em) translateY(0.7em);
 }
 
 .paypal {
   grid-row-start: 7;
+  /* autoprefixer: off */
   grid-row-end: 8;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(-0.1em) translateY(2.3em);
 }
 
 .pay-text {
   grid-row-start: 7;
+  /* autoprefixer: off */
   grid-row-end: 8;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(-0.5em) translateY(2.5em);
 }
 
 .logo {
   grid-row-start: 9;
+  /* autoprefixer: off */
   grid-row-end: 10;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(3.6em) translateY(1.3em);
 }
 
 .logo-text {
   grid-row-start: 9;
+  /* autoprefixer: off */
   grid-row-end: 10;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(4.3em) translateY(1.5em);
 }
 
 .abt {
   grid-row-start: 8;
+  /* autoprefixer: off */
   grid-row-end: 9;
   grid-column-start: 1;
+  /* autoprefixer: off */
   grid-column-end: 2;
   transform: translateX(5.9em) translateY(3em);
 }
 
 .abt-text {
   grid-row-start: 8;
+  /* autoprefixer: off */
   grid-row-end: 9;
   grid-column-start: 2;
+  /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(5.3em) translateY(2.7em);
 }

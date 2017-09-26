@@ -6,8 +6,10 @@
 
   .gmail {
     grid-row-start: 2;
+    /* autoprefixer: off */
     grid-row-end: 3;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(2em) translateY(0);
     justify-content: left;
@@ -15,152 +17,190 @@
 
   .gmail-text {
     grid-row-start: 2;
+    /* autoprefixer: off */
     grid-row-end: 3;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(8.1em) translateY(0.5em);
   }
 
   .tw {
     grid-row-start: 3;
+    /* autoprefixer: off */
     grid-row-end: 4;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(4.1em) translateY(2em);
   }
 
   .tw-text {
     grid-row-start: 3;
+    /* autoprefixer: off */
     grid-row-end: 4;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(10.4em) translateY(2em);
   }
 
   .fb {
     grid-row-start: 4;
+    /* autoprefixer: off */
     grid-row-end: 5;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(0.7em) translateY(0.1em);
   }
 
   .fb-text {
     grid-row-start: 4;
+    /* autoprefixer: off */
     grid-row-end: 5;
     grid-column-start: 2;
+    /* autoprefixer: off */
     grid-column-end: 3;
     transform: translateX(6.9em) translateY(-0.4em);
   }
 
   .vinyl {
     grid-row-start: 5;
+    /* autoprefixer: off */
     grid-row-end: 6;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(2.3em) translateY(-0.2em);
   }
 
   .vinyl-text {
     grid-row-start: 5;
+    /* autoprefixer: off */
     grid-row-end: 6;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(8.5em) translateY(-0.1em);
   }
 
   .digital {
     grid-row-start: 6;
+    /* autoprefixer: off */
     grid-row-end: 7;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(5.3em) translateY(-1.8em);
   }
 
   .digital-text {
     grid-row-start: 6;
+    /* autoprefixer: off */
     grid-row-end: 7;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(11.3em) translateY(-1.8em);
   }
 
   .code {
     grid-row-start: 7;
+    /* autoprefixer: off */
     grid-row-end: 8;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(-8.3em) translateY(0.3em);
   }
 
   .code-text {
     grid-row-start: 7;
+    /* autoprefixer: off */
     grid-row-end: 8;
     grid-column-start: 4;
+    /* autoprefixer: off */
     grid-column-end: 5;
     transform: translateX(-1.7em) translateY(0.3em);
   }
 
   .releases {
     grid-row-start: 2;
+    /* autoprefixer: off */
     grid-row-end: 3;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(-8.4em) translateY(2.8em);
   }
 
   .rel-text {
     grid-row-start: 2;
+    /* autoprefixer: off */
     grid-row-end: 3;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(-2.1em) translateY(2.4em);
   }
 
   .paypal {
     grid-row-start: 3;
+    /* autoprefixer: off */
     grid-row-end: 4;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(0.7em) translateY(2.3em);
   }
 
   .pay-text {
     grid-row-start: 3;
+    /* autoprefixer: off */
     grid-row-end: 4;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(6.9em) translateY(2.1em);
   }
 
   .logo {
     grid-row-start: 5;
+    /* autoprefixer: off */
     grid-row-end: 6;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(-0.4em) translateY(2.3em);
   }
 
   .logo-text {
     grid-row-start: 5;
+    /* autoprefixer: off */
     grid-row-end: 6;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(6.6em) translateY(2.3em);
   }
 
   .abt {
     grid-row-start: 4;
+    /* autoprefixer: off */
     grid-row-end: 5;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(1.8em) translateY(4.4em);
   }
 
   .abt-text {
     grid-row-start: 4;
+    /* autoprefixer: off */
     grid-row-end: 5;
     grid-column-start: 7;
+    /* autoprefixer: off */
     grid-column-end: 8;
     transform: translateX(7.7em) translateY(3.9em);
   }

@@ -8,6 +8,7 @@ import cssnext from 'postcss-cssnext';
 import BrowserSync from 'browser-sync';
 import imagemin from 'gulp-imagemin';
 import cssnano from 'cssnano';
+import cache from 'gulp-cache';
 import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
 
@@ -18,6 +19,10 @@ const hugoArgsDefault = ['-d', '../dist', '-s', 'site', '-v'];
 const hugoArgsPreview = ['--buildDrafts', '--buildFuture'];
 
 // Development tasks
+gulp.task('clear', done => {
+  return cache.clearAll(done);
+});
+
 gulp.task('hugo', cb => buildSite(cb));
 gulp.task('hugo-preview', cb => buildSite(cb, hugoArgsPreview));
 
