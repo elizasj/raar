@@ -39,7 +39,8 @@ export default {
 
   context: path.join(__dirname, 'src'),
   entry: {
-    app: ['./app.js']
+    landing: ['./landing.js'],
+    obi: ['./obi.js']
   },
   output: {
     path: path.join(__dirname, 'dist'),

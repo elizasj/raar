@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  margin: auto;
+  transform: scale(2.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#glitch {
+  position: relative;
+  z-index: 2;
+}
+
+.resizeImg {
+  width: 100%;
+  z-index: 1;
+  object-fit: cover;
+}

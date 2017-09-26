@@ -3,7 +3,7 @@ export default function sketch(s) {
 
   s.setup = () => {
     console.log('working');
-    cnv = s.createCanvas(s.windowWidth, s.windowHeight);
+    let cnv = s.createCanvas(s.windowWidth, s.windowHeight);
     cnv.parent('p5');
   };
 
@@ -13,3 +13,4 @@ export default function sketch(s) {
     s.resizeCanvas(s.windowWidth, s.windowHeight);
   }
 }
+
