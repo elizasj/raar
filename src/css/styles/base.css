@@ -67,7 +67,7 @@ p {
 .grid {
   display: grid;
   grid-template-columns: minmax(100px, 200px), minmax(50px);
-  grid-template-rows: repeat(11, 1fr);
+  grid-template-rows: repeat(15, 1fr);
 }
 
 .grid div {
