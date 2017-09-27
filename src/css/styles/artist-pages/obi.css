@@ -22,7 +22,16 @@
   }
 
 p.obi {
-    color: black;
+    color: #000;
+    padding: 2em;
+    font-size: 14px;
+    background-color: chartreuse;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 #obi00_0 {
@@ -36,127 +45,127 @@ p.obi {
   }
 
 
-  #obi01 {
-    background-image: url("/images/obi/obi01.jpg");
-    background-attachment: fixed;
-  }
+#obi01 {
+  background-image: url("/images/obi/obi01.jpg");
+  background-attachment: fixed;
+}
 
-  #obi02 {
-    background-image: url("/images/obi/obi02.jpg");
-    background-attachment: fixed;
-  }
+#obi02 {
+  background-image: url("/images/obi/obi02.jpg");
+  background-attachment: fixed;
+}
 
-  #obi03 {
-    background-image: url("/images/obi/obi03.jpg");
-    background-attachment: fixed;
-  }
+#obi03 {
+  background-image: url("/images/obi/obi03.jpg");
+  background-attachment: fixed;
+}
 
-  #obi04 {
-    background-image: url("/images/obi/obi04.jpg");
-    background-attachment: fixed;
-  }
+#obi04 {
+  background-image: url("/images/obi/obi04.jpg");
+  background-attachment: fixed;
+}
 
-  #obi05 {
-    background-image: url("/images/obi/obi05.jpg");
-    background-attachment: fixed;
-  }
+#obi05 {
+  background-image: url("/images/obi/obi05.jpg");
+  background-attachment: fixed;
+}
 
-  #obi06 {
-    background-image: url("/images/obi/obi06.jpg");
-    background-attachment: fixed;
-  }
+#obi06 {
+  background-image: url("/images/obi/obi06.jpg");
+  background-attachment: fixed;
+}
 
-  #obi07 {
-    background-image: url("/images/obi/obi07.jpg");
-    background-attachment: fixed;
-  }
+#obi07 {
+  background-image: url("/images/obi/obi07.jpg");
+  background-attachment: fixed;
+}
 
-  #obi08 {
-    background-image: url("/images/obi/obi08.jpg");
-    background-attachment: fixed;
-  }
+#obi08 {
+  background-image: url("/images/obi/obi08.jpg");
+  background-attachment: fixed;
+}
 
-  #obi09 {
-    background-image: url("/images/obi/obi09.jpg");
-    background-attachment: fixed;
-  }
+#obi09 {
+  background-image: url("/images/obi/obi09.jpg");
+  background-attachment: fixed;
+}
 
-  #obi10 {
-    background-image: url("/images/obi/obi10.jpg");
-    background-attachment: fixed;
-  }
+#obi10 {
+  background-image: url("/images/obi/obi10.jpg");
+  background-attachment: fixed;
+}
 
-  #obi11 {
-    background-image: url("/images/obi/obi11.jpg");
-    background-attachment: fixed;
-  }
+#obi11 {
+  background-image: url("/images/obi/obi11.jpg");
+  background-attachment: fixed;
+}
 
-  #obi12 {
-    background-image: url("/images/obi/obi12.jpg");
-    background-attachment: fixed;
-  }
+#obi12 {
+  background-image: url("/images/obi/obi12.jpg");
+  background-attachment: fixed;
+}
 
-  #obi13 {
-    background-image: url("/images/obi/obi13.jpg");
-    background-attachment: fixed;
-  }
+#obi13 {
+  background-image: url("/images/obi/obi13.jpg");
+  background-attachment: fixed;
+}
 
-  #obi14 {
-    background-image: url("/images/obi/obi14.jpg");
-    background-attachment: fixed;
-  }
+#obi14 {
+  background-image: url("/images/obi/obi14.jpg");
+  background-attachment: fixed;
+}
 
-  #obi15 {
-    background-image: url("/images/obi/obi15.jpg");
-    background-attachment: fixed;
-  }
+#obi15 {
+  background-image: url("/images/obi/obi15.jpg");
+  background-attachment: fixed;
+}
 
-  #obi16 {
-    background-image: url("/images/obi/obi16.jpg");
-    background-attachment: fixed;
-  }
+#obi16 {
+  background-image: url("/images/obi/obi16.jpg");
+  background-attachment: fixed;
+}
 
-  #obi17 {
-    background-image: url("/images/obi/obi17.jpg");
-    background-attachment: fixed;
-  }
+#obi17 {
+  background-image: url("/images/obi/obi17.jpg");
+  background-attachment: fixed;
+}
 
-  #obi18 {
-    background-image: url("/images/obi/obi18.jpg");
-    background-attachment: fixed;
-  }
+#obi18 {
+  background-image: url("/images/obi/obi18.jpg");
+  background-attachment: fixed;
+}
 
-  #obi19 {
-    background-image: url("/images/obi/obi19.jpg");
-    background-attachment: fixed;
-  }
+#obi19 {
+  background-image: url("/images/obi/obi19.jpg");
+  background-attachment: fixed;
+}
 
-  #obi20 {
-    background-image: url("/images/obi/obi20.jpg");
-    background-attachment: fixed;
-  }
+#obi20 {
+  background-image: url("/images/obi/obi20.jpg");
+  background-attachment: fixed;
+}
 
-  #obi21 {
-    background-image: url("/images/obi/obi21.jpg");
-    background-attachment: fixed;
-  }
+#obi21 {
+  background-image: url("/images/obi/obi21.jpg");
+  background-attachment: fixed;
+}
 
-  #obi22 {
-    background-image: url("/images/obi/obi22.jpg");
-    background-attachment: fixed;
-  }
+#obi22 {
+  background-image: url("/images/obi/obi22.jpg");
+  background-attachment: fixed;
+}
 
-  #obi23 {
-    background-image: url("/images/obi/obi23.jpg");
-    background-attachment: fixed;
-  }
+#obi23 {
+  background-image: url("/images/obi/obi23.jpg");
+  background-attachment: fixed;
+}
 
-  #obi24 {
-    background-image: url("/images/obi/obi24.jpg");
-    background-attachment: fixed;
-  }
+#obi24 {
+  background-image: url("/images/obi/obi24.jpg");
+  background-attachment: fixed;
+}
 
-  #obi25 {
-    background-image: url("/images/obi/obi25.png");
-    background-attachment: fixed;
-  }
+#obi25 {
+  background-image: url("/images/obi/obi25.png");
+  background-attachment: fixed;
+}
