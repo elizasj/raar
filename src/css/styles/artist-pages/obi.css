@@ -25,6 +25,11 @@ p.obi {
     color: black;
 }
 
+#obi00_0 {
+  background-image: url("/images/obi/obi00_0.png");
+  background-attachment: fixed;
+}
+
 #obi00 {
     background-image: url("/images/obi/obi00.jpg");
     background-attachment: fixed;
@@ -152,6 +157,6 @@ p.obi {
   }
 
   #obi25 {
-    background-image: url("/images/obi/obi25.jpg");
+    background-image: url("/images/obi/obi25.png");
     background-attachment: fixed;
   }
