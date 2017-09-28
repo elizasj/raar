@@ -25,13 +25,10 @@ p.obi {
     color: #000;
     padding: 2em;
     font-size: 14px;
-    background-color: chartreuse;
 }
 
-.notes {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+#video {
+  display: none
 }
 
 #obi00_0 {
@@ -168,4 +165,33 @@ p.obi {
 #obi25 {
   background-image: url("/images/obi/obi25.png");
   background-attachment: fixed;
+}
+
+@media screen and (max-width: 60em) {
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+  body#obi
+  {
+      background-image: url("/images/obi/obi04.jpg");
+      background: cover;
+  }
+
+  .section {
+    display: none;
+  }
+
+  #video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #iframe {
+    padding: 2em;
+  }
 }
