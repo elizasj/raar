@@ -1,0 +1,48 @@
+@media screen and (min-width: 60em) {
+    body#news {
+        width: 55%;
+      }
+    
+      /* menu styles start */
+      header {
+        padding-bottom: 2em;
+      }
+    
+      .header_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .header.header__text {
+        min-width: 28em;
+        padding: 0px 20px 0 10px;
+        margin-top: 1.1em;
+      }
+    
+      /* menu styles end */
+    
+      .title {
+        padding: 20px 0px 20px 0px;
+        flex-direction: row;
+        justify-content: left;
+      }
+    
+      .snippet.snippet__section {
+        min-width: 40em;
+      }
+    
+      /* single page styles */
+      .snippet__title,
+      .single_title,
+      .pub_date {
+        line-height: 0px;
+       }
+    
+       .single__content,
+       .relatedPost,
+       .snippet__section,
+       .snippet__summary {
+        font-size: 1.25rem;
+       }
+}

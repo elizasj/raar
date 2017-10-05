@@ -1,4 +1,6 @@
-<main>
+{{ partial "news/header.html" . }} 
+
+    <main>
     <article>
         <span><time class="pub_date">{{ .Date.Format "January 2, 2006" }}</time> {{ if .Params.External }} — <span >for {{ .Params.External.Host }}</span>        {{ end }}</span>
         <h1 class="single__title">{{ .Title }}</h1>
@@ -6,4 +8,7 @@
             {{ .Content }}
         </div>
     </article>
-</main>
+    </main>
+ 
+
+{{ partial "news/footer.html" . }} 

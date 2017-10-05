@@ -1,6 +1,10 @@
+{{ partial "news/header.html" . }} 
+
+{{ .Content }}
+
 <ul class="snippet">
     <!-- Ranges through content/blog/*.md -->
-    {{ $paginator := .Paginate (where .Site.Pages "Type" "post") }} {{ range (.Paginator 5).Pages }}
+    {{ $paginator := .Paginate (where .Site.Pages "Type" "news") }} {{ range (.Paginator 5).Pages }}
     <li class="snippet snippet__section">
 
         <a class="snippet__section snippet__title" href="{{.RelPermalink}}">{{ .Title }}</a>
@@ -17,3 +21,6 @@
 </ul>
 
 {{ partial "pagination.html" . }}
+</div>
+
+{{ partial "news/footer.html" . }} 

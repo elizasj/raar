@@ -1,3 +1,7 @@
+/* input#mce-EMAIL, input#mc-embedded-subscribe {
+    display: initial;
+} */
+
 #mc_embed_signup {
     display: flex;
     justify-content: center;

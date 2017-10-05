@@ -1,5 +1,7 @@
 +++
 title = "{{ replace .TranslationBaseName "-" " " | title }}"
+date = {{ .Date }}
 draft = true
-description = "raar - artist name here"
+type = "post"
+tags = []
 +++

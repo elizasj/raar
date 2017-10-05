@@ -2,6 +2,8 @@ baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
 title = "RAAR"
+paginate = 10
+paginatePath = "page"
 
 [[menu.main]]
     name = "obiblanche"
@@ -11,8 +13,14 @@ title = "RAAR"
     name = "obizine"
     identifier = "obizine"
     url = "/obizine/"
+[[menu.main]]
+    name = "label"
+    identifier = "label"
+    url = "/label/"
+[[menu.main]]
+    name = "news archives"
+    identifier = "archives"
+    url = "/tags/"
 
-# RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
-# https://gohugo.io/getting-started/configuration/#toml-configuration
-disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+[taxonomies]
+  tag = "tags"

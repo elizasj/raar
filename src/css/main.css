@@ -9,3 +9,11 @@
 @import 'styles/artist-pages/obi.css';
 @import 'styles/artist-pages/signup.css';
 @import 'styles/p5/glitch.css';
+
+@import 'styles/news.css';
+@import 'styles/mq-news/mq-news-desk.css';
+@import 'styles/mq-news/mq-news-tab.css';
+
+@import 'styles/label.css';
+@import 'styles/mq-label/mq-label-desk.css';
+@import 'styles/mq-label/mq-label-tab.css';
