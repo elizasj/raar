@@ -29,25 +29,62 @@ body#obi {
   padding-bottom: 2em;
 }
 
+.obi {
+  /*  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  */
+  display: flex;
+  flex-direction: column;
+}
+
 .obi > h1,
 h3,
-p {
+p,
+div {
   font-family: 'Abel', sans-serif;
   color: white;
 }
-.obi > h1 {
+.obi > div > h1 {
   font-size: 4em;
 }
 
-.obi > h3 {
+.obi > div > h3 {
   font-size: 2em;
   letter-spacing: 4px;
 }
 
-.obi > p {
+.ep > p,
+.bio > p {
   font-size: 1.6em;
   letter-spacing: 3px;
   line-height: 1.5em;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+}
+
+.ep {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.ep-bio {
+  display: flex;
+  align-items: center;
+  padding-top: 1em;
+}
+
+.it {
+  font-style: italic;
+}
+
+.subhead {
+  font-size: 0.5em;
+  padding-top: 0.7em;
+  display: flex;
 }
 
 .content {
@@ -59,7 +96,7 @@ p {
 }
 
 #obi00_0 {
-  background-image: url('/images/obi/obi00_0.png');
+  background-image: url('/images/obi/obi00_0.jpg');
   background-attachment: fixed;
 }
 
