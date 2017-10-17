@@ -18,6 +18,10 @@ paginatePath = "page"
     identifier = "label"
     url = "/label/"
 [[menu.main]]
+    name = "releases"
+    identifier = "releases"
+    url = "/releases/"
+[[menu.main]]
     name = "news archives"
     identifier = "archives"
     url = "/tags/"

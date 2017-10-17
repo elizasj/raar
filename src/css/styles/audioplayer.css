@@ -1,0 +1,137 @@
+html {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+.single__content {
+  font-size: 1.4rem;
+}
+
+.releases {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.sc-player {
+  display: grid;
+  grid-template-columns: repeat(8, 2fr);
+  padding: 1em 0em 2.5em 0em;
+  transform: translateX(-1em);
+}
+
+.sc-controls {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.sc-scrubber {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 9;
+}
+
+.sc-trackslist {
+  grid-row-start: 3;
+  grid-row-end: 4;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.7em;
+  font-size: 1.4rem;
+  line-height: 1.6em;
+}
+
+
+.sc-player .sc-time-span {
+  position: relative;
+  height: 27.8px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 0.4em;
+  transform: translateX(-0.4em);
+}
+
+.sc-player .sc-time-span .sc-played {
+  position: absolute;
+  width: 0%;
+  top: 0;
+  height: 24px;
+  background-color: rgb(165, 29, 29);
+  display: block;
+  transition: 0.25s;
+}
+
+
+.sc-player .sc-time-span img {
+  width: 100%;
+  height: 24px;
+  visibility: hidden;
+  position: relative;
+}
+
+
+.sc-track-duration {
+  display: none;
+}
+
+
+.sc-player .sc-info h3 {
+  text-transform: uppercase;
+}
+
+.sc-info h4,
+.sc-info h3,
+.sc-info p,
+.sc-info-close {
+  display: none;
+}
+
+
+.sc-player ol {
+  list-style-type: none;
+}
+
+.sc-artwork-list,
+.sc-info-toggle {
+  display: none;
+}
+
+.sc-player .sc-controls .sc-play,
+.sc-player .sc-controls .sc-pause {
+  color: transparent;
+  width: 2.7em;
+  padding-bottom: 1em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  transform: translateY(-0.2em);
+}
+
+.sc-player .sc-controls .sc-play {
+  background-image: url('http://92.243.12.140/orchestrepelleas.com/v1/dyn_img/cms/d7d1bc29f0f8a74872295b219f4cf10d.svg');
+}
+.sc-player .sc-controls .sc-pause {
+  background-image: url('http://92.243.12.140/orchestrepelleas.com/v1/dyn_img/cms/98fddf3d95fa97e68b05c375c6d2e7ee.svg');
+  display: none;
+}
+
+.sc-player.playing .sc-play {
+  display: none;
+}
+
+.sc-player.playing .sc-pause {
+  display: block !important;
+}
+
+.sc-player.playing .sc-played {
+  min-width: 1px;
+} 
