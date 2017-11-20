@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on RAAR</title>
+    <link>/tags/news/</link>
+    <description>Recent content in News on RAAR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 18:25:10 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test News Update</title>
+      <link>/news/first-post/</link>
+      <pubDate>Tue, 03 Oct 2017 18:25:10 +0200</pubDate>
+      
+      <guid>/news/first-post/</guid>
+      <description>header sub header  block quote continued
+nest line
+ and nested
+nested title  item another item    This is some normal content as an example and here is a link</description>
+    </item>
+    
+  </channel>
+</rss>

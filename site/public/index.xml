@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home on RAAR</title>
+    <link>/</link>
+    <description>Recent content in home on RAAR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Oct 2017 18:25:10 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Test News Update</title>
+      <link>/news/first-post/</link>
+      <pubDate>Tue, 03 Oct 2017 18:25:10 +0200</pubDate>
+      
+      <guid>/news/first-post/</guid>
+      <description>header sub header  block quote continued
+nest line
+ and nested
+nested title  item another item    This is some normal content as an example and here is a link</description>
+    </item>
+    
+    <item>
+      <title>Label Realeases</title>
+      <link>/releases/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/releases/</guid>
+      <description>This is the label releases page. Put any general blah blah about RAAR releases here.
+#RAAR06 
+#RAAR05
+
+#RAAR04 
+#RAAR03 
+#RAAR01</description>
+    </item>
+    
+    <item>
+      <title>News Archives</title>
+      <link>/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAAR - label</title>
+      <link>/label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/label/</guid>
+      <description>Two of techno’s brightest shards, the oft-collaborating Maelstrom and LOUISAHHH!!! are delighted to present the label RAAR. The name connotes both ‘rare, uncommon, unique’ and the sound of a guttural roar, the wild cry of a true passion project.
+Started as equal parts research division of techno’s new frontiers, haven for the sacred and profane, and ‘benevolent anarchy’, RAAR aims to release truly innovative music from and for brave sonic explorers.</description>
+    </item>
+    
+    <item>
+      <title>obiblanche</title>
+      <link>/obiblanche/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/obiblanche/</guid>
+      <description>This is the obi page</description>
+    </item>
+    
+    <item>
+      <title>obizine</title>
+      <link>/obizine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/obizine/</guid>
+      <description>This is the obi zine page</description>
+    </item>
+    
+  </channel>
+</rss>
