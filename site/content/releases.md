@@ -5,12 +5,16 @@ type = "releases"
 description = "RAAR - releases"
 +++
 
-This is the label releases page. Put any general blah blah about RAAR releases here.
+#RAAR08
+<a href="https://soundcloud.com/raarraar/sets/raar008-louisahhh-a-trap-ive" class="sc-player"></a>
+
+#RAAR07
+<a href="https://soundcloud.com/raarraar/sets/raar-008-obi-blanche" class="sc-player"></a>
 
 #RAAR06
 <a href="https://soundcloud.com/raarraar/sets/raar006-maelstrom-her-empty" class="sc-player"></a>
 
-#RAAR05    
+#RAAR05  
 <a href="https://soundcloud.com/raarraar/sets/raar005-somatic-responses-1" class="sc-player"></a>
 
 #RAAR04
