@@ -1,6 +1,6 @@
 function getURL() {
   const min = 1;
-  const max = 8;
+  const max = 7;
   const imgNum = Math.floor(Math.random() * (max - min + 1)) + min;
   const url = `url(images/gifs/${imgNum}.gif)`;
 
