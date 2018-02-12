@@ -6,10 +6,28 @@
     <description>Recent content in RAAR news on RAAR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Oct 2017 18:25:10 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 05:19:09 +0000</lastBuildDate>
     
 	<atom:link href="/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>add your title here</title>
+      <link>/news/add-your-title-here/</link>
+      <pubDate>Thu, 11 Jan 2018 05:19:09 +0000</pubDate>
+      
+      <guid>/news/add-your-title-here/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>forestry test post</title>
+      <link>/news/forestry-test-post/</link>
+      <pubDate>Mon, 20 Nov 2017 12:42:52 +0000</pubDate>
+      
+      <guid>/news/forestry-test-post/</guid>
+      <description>this is a test blog post</description>
+    </item>
     
     <item>
       <title>Test News Update</title>
