@@ -2,7 +2,6 @@
 date = "2018-02-13T06:00:45+00:00"
 tags = []
 title = "Obi Blanche Poster-Zine and Digital EP Now Available "
-type = "post"
 
 +++
 Obi Blanche's photo zine is now available online!
