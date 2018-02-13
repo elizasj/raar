@@ -1,0 +1,33 @@
+---
+pages:
+- news/benevolent-anarchy-2018.md
+- news/we-have-a-show-on-rinse.fr.md
+- news/djedjotronic-remix-of--no-way-you-please-.md
+- news/obi-blanche-poster-zine-and-digital-ep-now-available-.md
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: post
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: []
