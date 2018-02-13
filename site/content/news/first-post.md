@@ -1,11 +1,10 @@
 +++
-title = "Test News Update"
-date = 2017-10-03T18:25:10+02:00
-draft = false
-type = "news"
+date = "2017-10-03T18:25:10+02:00"
+draft = true
 tags = ["news"]
-+++
+title = "Test News Update"
 
++++
 # header
 
 ## sub header
