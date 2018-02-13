@@ -4,6 +4,4 @@ tags = []
 title = "image upload test"
 
 +++
-testing images...
-
-![](/images/uploads/2018/02/13/texture2.jpg)
+this is a test for image uploads![blob](/static/images/uploads/2018/02/13/texture2.jpg)
