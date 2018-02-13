@@ -1,8 +1,7 @@
 +++
 date = "2018-02-13T10:32:47+00:00"
-tags = []
+tags = ["benevolent", "anarchy", "gibus", "paris"]
 title = "Benevolent Anarchy 2018"
-type = "post"
 
 +++
 RAAR is pleased to present it's first club residency, BENEVOLENT ANARCHY, at GIBUS CLUB during the month of March, 2018.
