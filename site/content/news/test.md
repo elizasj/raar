@@ -6,4 +6,4 @@ title = "image upload test"
 +++
 testing images...
 
-![](images/uploads/2018/02/13/Screen Shot 2018-02-12 at 00.06.41.png)
+![](images/uploads/2018/02/13/texture1.jpg)
