@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benevolent on RAAR</title>
+    <link>/tags/benevolent/</link>
+    <description>Recent content in Benevolent on RAAR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2018 10:32:47 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/benevolent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Benevolent Anarchy 2018</title>
+      <link>/news/benevolent-anarchy-2018/</link>
+      <pubDate>Tue, 13 Feb 2018 10:32:47 +0000</pubDate>
+      
+      <guid>/news/benevolent-anarchy-2018/</guid>
+      <description>RAAR is pleased to present it&amp;rsquo;s first club residency, BENEVOLENT ANARCHY, at GIBUS CLUB during the month of March, 2018.
+We have taken great pleasure in curating a lineup comprised of both fresh talent and legendary power in an effort to shake up normative club experiences and present something raw and different in both sound and feel.
+We hope that you will join us in our late night reverie, our boundary breaking, rule-disapproving, wild, joyful, benevolent anarchy.</description>
+    </item>
+    
+  </channel>
+</rss>

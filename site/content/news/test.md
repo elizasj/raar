@@ -1,0 +1,9 @@
++++
+date = "2018-02-13T22:40:08+00:00"
+tags = []
+title = "image upload test"
+
++++
+testing images...
+
+![](images/uploads/2018/02/13/texture1.jpg)
