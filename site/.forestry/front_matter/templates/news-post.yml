@@ -1,6 +1,5 @@
 ---
 pages:
-- news/test.md
 - news/forestry-test-post.md
 hide_body: false
 fields:
