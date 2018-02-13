@@ -1,3 +1,4 @@
+staticDir = ["static"]
 baseurl = "/"
 languageCode = "en-us"
 languageLang = "en"
