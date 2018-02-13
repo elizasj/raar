@@ -8,4 +8,4 @@ Our awesome friend Djedjotronic (Boys Noize, Zone) made the most excellent EBM r
 
 Listen here, download free:
 
-[here](https://soundcloud.com/raarraar/free-dl-obi-blanche-no-way-you-please-djedjotronic-remix "here")
+[here](https://soundcloud.com/raarraar/free-dl-obi-blanche-no-way-you-please-djedjotronic-remix "here")![](/uploads/2018/02/13/promo5.jpg)
