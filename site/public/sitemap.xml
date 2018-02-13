@@ -3,8 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/news/add-your-title-here/</loc>
-    <lastmod>2018-01-11T05:19:09+00:00</lastmod>
+    <loc>/news/we-have-a-show-on-rinse.fr/</loc>
+    <lastmod>2018-02-13T10:37:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/benevolent-anarchy-2018/</loc>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/djedjotronic-remix-of--no-way-you-please-/</loc>
+    <lastmod>2018-02-13T06:09:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/obi-blanche-poster-zine-and-digital-ep-now-available-/</loc>
+    <lastmod>2018-02-13T06:00:45+00:00</lastmod>
   </url>
   
   <url>
@@ -15,6 +30,24 @@
   <url>
     <loc>/news/first-post/</loc>
     <lastmod>2017-10-03T18:25:10+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/anarchy/</loc>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/benevolent/</loc>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gibus/</loc>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -32,23 +65,41 @@
   </url>
   
   <url>
+    <loc>/tags/paris/</loc>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/podcasts/</loc>
+    <lastmod>2018-02-13T10:37:58+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/label/</loc>
   </url>
   
   <url>
     <loc>/news/</loc>
-    <lastmod>2018-01-11T05:19:09+00:00</lastmod>
+    <lastmod>2018-02-13T10:37:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/radio/</loc>
+    <lastmod>2018-02-13T10:37:58+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2017-10-03T18:25:10+02:00</lastmod>
+    <lastmod>2018-02-13T10:32:47+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-01-11T05:19:09+00:00</lastmod>
+    <lastmod>2018-02-13T10:37:58+00:00</lastmod>
   </url>
   
   <url>
