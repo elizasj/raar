@@ -6,10 +6,19 @@
     <description>Recent content in home on RAAR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Feb 2018 10:37:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Feb 2018 22:40:08 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>image upload test</title>
+      <link>/news/test/</link>
+      <pubDate>Tue, 13 Feb 2018 22:40:08 +0000</pubDate>
+      
+      <guid>/news/test/</guid>
+      <description>testing images&amp;hellip;</description>
+    </item>
     
     <item>
       <title>RAAR RINSE.FR and RADAR RADIO shows</title>
