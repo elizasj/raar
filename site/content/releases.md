@@ -24,4 +24,7 @@ description = "RAAR - releases"
 <a href="https://soundcloud.com/raarraar/sets/raar003-wlvs-joefarr" class="sc-player"></a>
 
 #RAAR01
+<a href="https://soundcloud.com/raarraar/sets/raar002-maelstrom-specialivery-1" class="sc-player"></a>
+
+#RAAR01
 <a href="https://soundcloud.com/raarraar/sets/raar001-roijacker-maelstrom" class="sc-player"></a>
