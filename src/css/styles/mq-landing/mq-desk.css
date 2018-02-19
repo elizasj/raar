@@ -127,20 +127,20 @@
     grid-row-start: 7;
     /* autoprefixer: off */
     grid-row-end: 8;
-    grid-column-start: 4;
+    grid-column-start: 5;
     /* autoprefixer: off */
-    grid-column-end: 5;
-    transform: translateX(-8.3em) translateY(0.3em);
+    grid-column-end: 6;
+    transform: translateX(-0.3em) translateY(-0.6em);
   }
 
   .code-text {
     grid-row-start: 7;
     /* autoprefixer: off */
     grid-row-end: 8;
-    grid-column-start: 4;
+    grid-column-start: 6;
     /* autoprefixer: off */
-    grid-column-end: 5;
-    transform: translateX(-1.7em) translateY(0.3em);
+    grid-column-end: 7;
+    transform: translateX(-5.4em) translateY(-0.4em);
   }
 
   .releases {
