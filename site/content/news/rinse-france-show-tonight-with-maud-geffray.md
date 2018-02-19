@@ -6,3 +6,4 @@ title = "RINSE FRANCE SHOW TONIGHT WITH MAUD GEFFRAY"
 type = "post"
 
 +++
+![](/images/uploads/2018/02/INSTA_RAA190218.gif)
