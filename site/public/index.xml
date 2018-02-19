@@ -17,7 +17,8 @@
       <pubDate>Tue, 13 Feb 2018 23:26:54 +0000</pubDate>
       
       <guid>/news/test-image-post/</guid>
-      <description>This is a test for image uploads</description>
+      <description>This is a test for image uploads
+ </description>
     </item>
     
     <item>
@@ -101,6 +102,7 @@ nested title  item another item    This is some normal content as an example and
 
 #RAAR04 
 #RAAR03 
+#RAAR02 
 #RAAR01</description>
     </item>
     
