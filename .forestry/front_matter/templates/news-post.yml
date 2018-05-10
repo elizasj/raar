@@ -1,0 +1,32 @@
+---
+pages:
+- news/upcoming-tour-dates.md
+- news/test-image-post.md
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: ''
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: news
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: []
