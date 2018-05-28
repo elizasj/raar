@@ -1,7 +1,6 @@
 ---
-pages:
-- news/test-image-post.md
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
@@ -28,3 +27,7 @@ fields:
   type: tag_list
   hidden: false
   default: []
+pages:
+- news/raar-009-snow-falls-remixes-available-now.md
+- news/upcoming-tour-dates.md
+- news/test-image-post.md
