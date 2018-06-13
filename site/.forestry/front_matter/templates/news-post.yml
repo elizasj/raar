@@ -28,6 +28,7 @@ fields:
   hidden: false
   default: []
 pages:
+- news/june-rinse-show-now-streaming-.md
 - news/raar-009-snow-falls-remixes-available-now.md
 - news/upcoming-tour-dates.md
 - news/test-image-post.md
