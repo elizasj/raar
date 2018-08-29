@@ -1,4 +1,5 @@
 ---
+label: post
 hide_body: false
 is_partial: false
 fields:
@@ -28,9 +29,9 @@ fields:
   hidden: false
   default: []
 pages:
-- news/april-rinse-show-now-streaming.md
-- news/we-have-a-show-on-rinse.fr.md
-- news/obi-blanche-poster-zine-and-digital-ep-now-available-.md
-- news/djedjotronic-remix-of--no-way-you-please-.md
-- news/rinse-france-show-tonight-with-maud-geffray.md
-- news/benevolent-anarchy-2018.md
+- site/content/news/april-rinse-show-now-streaming.md
+- site/content/news/we-have-a-show-on-rinse.fr.md
+- site/content/news/benevolent-anarchy-2018.md
+- site/content/news/djedjotronic-remix-of--no-way-you-please-.md
+- site/content/news/obi-blanche-poster-zine-and-digital-ep-now-available-.md
+- site/content/news/rinse-france-show-tonight-with-maud-geffray.md
