@@ -1,6 +1,5 @@
 +++
 description = "RAAR - releases"
-draft = true
 title = "Label Releases"
 type = "releases"
 
