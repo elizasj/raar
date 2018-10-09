@@ -4,6 +4,12 @@
     grid-template-rows: repeat(10, 1fr);
   }
 
+  .grid div {
+    display: flex;
+    align-items: center;
+    width: 95px;
+  }
+
   .gmail {
     grid-row-start: 2;
     /* autoprefixer: off */
