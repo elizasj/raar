@@ -85,26 +85,6 @@
     transform: translateX(10.2em) translateY(-1.6em);
   }
 
-  .obiblanche {
-    grid-row-start: 5;
-    /* autoprefixer: off */
-    grid-row-end: 6;
-    grid-column-start: 4;
-    /* autoprefixer: off */
-    grid-column-end: 5;
-    transform: translateX(2.3em) translateY(-0.2em);
-  }
-
-  .obiblanche-text {
-    grid-row-start: 5;
-    /* autoprefixer: off */
-    grid-row-end: 6;
-    grid-column-start: 4;
-    /* autoprefixer: off */
-    grid-column-end: 5;
-    transform: translateX(9.5em) translateY(-0.1em);
-  }
-
   /*
   .digital {
     grid-row-start: 6;

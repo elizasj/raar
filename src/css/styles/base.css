@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 0px;
-  font-family: 'Abel', sans-serif;
+  font-family: "Abel", sans-serif;
   /* overflow-x: hidden; */
 }
 
@@ -44,8 +44,6 @@ p {
   color: #ffffff;
   font-family: sans-serif;
 }
-
-
 
 .text-wrap {
   overflow-wrap: break-word;
@@ -157,26 +155,6 @@ p {
   transform: translateX(2.3em) translateY(0.6em);
 }
 
-.digital {
-  grid-row-start: 5;
-  /* autoprefixer: off */
-  grid-row-end: 6;
-  grid-column-start: 1;
-  /* autoprefixer: off */
-  column-row-end: 2;
-  transform: translateX(3.6em) translateY(-0.7em);
-}
-
-.digital-text {
-  grid-row-start: 5;
-  /* autoprefixer: off */
-  grid-row-end: 6;
-  grid-column-start: 2;
-  /* autoprefixer: off */
-  grid-column-end: 3;
-  transform: translateX(3.1em) translateY(-0.3em);
-}
-
 .code {
   grid-row-start: 10;
   /* autoprefixer: off */
@@ -215,6 +193,47 @@ p {
   /* autoprefixer: off */
   grid-column-end: 3;
   transform: translateX(0.1em) translateY(0.7em);
+}
+
+.shop {
+  grid-row-start: 3;
+  /* autoprefixer: off */
+  grid-row-end: 4;
+  grid-column-start: 4;
+  width: 84px;
+  /* autoprefixer: off */
+  grid-column-end: 5;
+  transform: translateX(3.6em) translateY(-0.7em);
+}
+
+.shop-text {
+  grid-row-start: 3;
+  /* autoprefixer: off */
+  grid-row-end: 4;
+  grid-column-start: 5;
+  /* autoprefixer: off */
+  grid-column-end: 6;
+  transform: translateX(-1.9em) translateY(-0.3em);
+}
+
+.obiblanche {
+  grid-row-start: 5;
+  /* autoprefixer: off */
+  grid-row-end: 6;
+  grid-column-start: 4;
+  /* autoprefixer: off */
+  grid-column-end: 5;
+  transform: translateX(2.3em) translateY(-0.2em);
+}
+
+.obiblanche-text {
+  grid-row-start: 5;
+  /* autoprefixer: off */
+  grid-row-end: 6;
+  grid-column-start: 4;
+  /* autoprefixer: off */
+  grid-column-end: 5;
+  transform: translateX(9.5em) translateY(-0.1em);
 }
 
 .paypal {
