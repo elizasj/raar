@@ -1,5 +1,210 @@
-{{ partial "header" . }} 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-{{ partial "landing" . }}
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
 
-{{ partial "footer" . }}
+    <title>RAAR</title>
+    <style>
+      html {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+      }
+
+      body {
+        height: 100%;
+        margin: 0;
+        color: #000c;
+      }
+
+      a {
+        color: white;
+      }
+
+      canvas {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+      }
+
+      .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .logo {
+        margin: 0 auto;
+        padding: 0px 2em 0px 2em;
+      }
+
+      .raar {
+        width: 100%;
+        max-width: 1122px;
+        height: auto;
+        /* filter: drop-shadow(1px 1px 1px rgb(255, 0, 0)); */
+      }
+
+      .menu {
+        font-family: "Courier New", Courier, monospace;
+        color: white;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-bottom: 2em;
+        text-shadow: 1px 1px #000000;
+      }
+
+      a.menu {
+        cursor: pointer;
+      }
+
+      .dropbtn {
+        font-family: "Courier New", Courier, monospace;
+        background-color: rgba(255, 255, 255, 0);
+        text-shadow: 1px 1px #000000;
+        text-decoration: underline;
+        color: white;
+        font-size: 16px;
+        border: none;
+      }
+
+      .dropup {
+        position: relative;
+        display: inline-block;
+      }
+
+      .dropup-content {
+        display: none;
+        position: absolute;
+        background-color: #000;
+        min-width: 120px;
+        bottom: 20px;
+        z-index: 1;
+      }
+
+      .dropup-content a {
+        color: white;
+        padding: 12px 12px;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropup-content a:hover {
+        background-color: rgb(20, 20, 20);
+        color: #fff;
+      }
+
+      .dropup:hover .dropup-content {
+        display: block;
+      }
+
+      .dropup:hover .dropbtn {
+      }
+
+      @media only screen and (max-width: 800px) {
+        .menu {
+          /* flex-direction: column; */
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          line-height: 1.5em;
+          padding-bottom: 1em;
+        }
+
+        .menu > * {
+          padding: 0em 1em 0em 1em;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <canvas></canvas>
+    <div class="container">
+      <div class="logo">
+        <img class="raar" src="images/logo_black_HD.png" />
+      </div>
+      <div class="menu">
+        <div class="dropup">
+          <button class="dropbtn">socials</button>
+          <div class="dropup-content">
+            <a href="mailto:raarlabel@gmail.com">email </a>
+            <a href="https://twitter.com/LabelRaar" target="_blank">twitter </a>
+            <a href="https://www.facebook.com/RAAR.FR/" target="_blank"
+              >facebook</a
+            >
+            <a href="https://www.instagram.com/labelraar/" target="_blank">
+              instagram
+            </a>
+          </div>
+        </div>
+
+        <div class="dropup">
+          <button class="dropbtn">releases</button>
+          <div class="dropup-content">
+            <a href="/obiblanche/">obi blanche</a>
+            <a href="/releases">+ releases</a>
+          </div>
+        </div>
+
+        <div class="dropup">
+          <button class="dropbtn">shop</button>
+          <div class="dropup-content">
+            <a href="https://thehyv.shop/collections/raar" target="_blank"
+              >merch</a
+            >
+            <a href=" https://www.diggersfactory.com/p/29091" target="_blank">
+              diggers factory
+            </a>
+          </div>
+        </div>
+
+        <a href="https://labelraar.bandcamp.com/music" target="_blank"
+          >bandcamp</a
+        >
+
+        <a href="http://eepurl.com/gfVGL5" target="_blank">newsletter</a>
+
+        <a href="/label">about</a>
+
+        <a
+          href="https://www.paypal.com/donate/?token=DZPlYUGTxBM2xdhZvaQZM7g3qT4tEE0yyzvoO4j9Ajq60Ch9ApF-pmvqclBnx2gcLKq0M0&country.x=FR&locale.x=FR"
+          target="_blank"
+        >
+          pay us
+        </a>
+        <a
+          href="https://www.dropbox.com/s/9k4717uwi9h5u50/RAARLOGO1.jpg?dl=0"
+          target="_blank"
+        >
+          logo
+        </a>
+        <a
+          href="https://open.spotify.com/user/louisahhh/playlist/2zeG1RspP7K74Alv95W22C?si=coOHQJpoSsCMJ78WfvlvAg"
+          target="_blank"
+        >
+          stream
+        </a>
+      </div>
+    </div>
+    <script src="landing.js"></script>
+  </body>
+</html>
