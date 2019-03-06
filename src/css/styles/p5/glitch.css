@@ -13,9 +13,19 @@ canvas {
   z-index: -1;
 }
 
-#glitch {
+#glitch,
+#hearts {
   position: relative;
   z-index: 2;
+}
+
+#hearts {
+  background-color: black;
+  height: 100vh;
+}
+
+input#hearts-embedded-subscribe.button {
+  border: 2px solid white;
 }
 
 .resizeImg {

@@ -15,6 +15,10 @@ paginatePath = "page"
     identifier = "obizine"
     url = "/obizine/"
 [[menu.main]]
+    name = "hearts"
+    identifier = "hearts"
+    url = "/hearts/"
+[[menu.main]]
     name = "label"
     identifier = "label"
     url = "/label/"
